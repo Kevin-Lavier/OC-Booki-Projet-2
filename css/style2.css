@@ -1,0 +1,249 @@
+/* START HEADER */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links ul {
+    display: flex;
+}
+
+.links li {
+    list-style-type: none;
+}
+
+.links a {
+    margin-left: 50px;
+}
+
+li:hover {
+    text-decoration: overline #0065fc 2px;
+}
+
+.links a:focus {
+    color: #0065fc;
+}
+
+/* END HEADER */
+
+
+/*  START Search Bar */
+
+.sousTitre {
+
+    margin-bottom: -10px;
+
+}
+
+.fondGris {
+    background-color: #f2f2f2;
+}
+
+.fondBleu {
+    background-color: #0065fc;
+}
+
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.borderSearchBar {
+    width: 400px;
+    border-radius: 16px;
+    border: 1px solid #f2f2f2;
+    margin-top: 40px;
+    /* margin top pour espacer 'En plein centre-ville' et la search bar */
+    margin-bottom: 30px;
+}
+
+.pictoLocation {
+    height: 50px;
+    width: 50px;
+    border-radius: 15px 0 0 15px;
+    cursor: pointer;
+}
+
+.inputSearch {
+    height: 50px;
+    width: 200px;
+}
+
+.buttonRechercher {
+    height: 50px;
+    width: 150px;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 15px 15px 0;
+    font-weight: bold;
+}
+
+.noBorderInput {
+    height: 50px;
+    width: 200px;
+    border: none;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+/*  END Search Bar */
+
+/*  START Filter Bar */
+
+.filtersBar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.styleButton {
+    font-size: 18px;
+    border: solid 2px #f2f2f2;
+    padding: 15px 20px 15px 20px;
+    border-radius: 30px;
+    margin: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.styleButton:hover {
+    background-color: #deebff;
+}
+
+.buttonText {
+    margin-left: 10px;
+    color: black;
+}
+
+.pictoInfo {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.pictoInfo img {
+    margin-right: 10px;
+}
+
+/*  END Filter Bar */
+
+/* DEBUT Cards Hébergements */
+
+.hebergementsCard {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main {
+    margin-bottom: 80px;
+}
+
+/* END Cards Hébergements */
+
+
+/* START Cards Activités */
+
+.activitySubtitle {
+    margin-top: 80px;
+    margin-bottom: 35px;
+    margin-left: 28px;
+}
+
+.flex-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card2 {
+    background-color: white;
+    border-radius: 20px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+}
+
+
+.card-title {
+    font-size: 16px;
+}
+
+.card-title2 {
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+.borderActivity {
+    background-color: var(--main-bg-color);
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.resize {
+    width: 280px;
+    height: 460px;
+}
+
+.imgesize {
+    height: 400px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}
+
+.resize2 {
+    width: 250px;
+    height: 210px;
+    margin-top: 30px;
+}
+
+.imgesize2 {
+    height: 110px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.margin-top {
+    margin-top: 20px;
+}
+
+
+/* END Cards Activités */
+
+
+/* START FOOTER */
+
+.footer {
+    background-color: #f2f2f2;
+}
+
+.flex-footer {
+    display: flex;
+    gap: 180px;
+
+
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-bottom: 10px;
+
+}
+
+.paddingFooter {
+    padding: 5px 10px 10px 0;
+
+}
+
+/* END FOOTER */
