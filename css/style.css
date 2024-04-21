@@ -58,28 +58,97 @@ a {
     color: var(--main-bg-color)
 }
 
+input {
+    outline: none;
+}
+
 /****** Header ***********/
 header {
     width: 100%;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    height: 100px;
+    align-items: end;
+
 }
 
 #menu-navigation a {
-    padding: 30px;
+    margin-left: 50px;
+
 }
 
 #menu-navigation a:hover {
     border-top: 2px solid #0065FC;
     color: #0065FC;
-    padding-top: 28px;
+    padding-top: 1rem;
 }
+
 #menu-navigation a:focus {
-    color: #0065FC;  
+    color: #0065FC;
 }
+
+/****** Section Search ***********/
+/*** Introduction ***/
+#search {
+    margin-bottom: 30px;
+}
+
+#search h1 {
+    margin-bottom: 10px;
+}
+
+#search p {
+    margin-top: 0;
+}
+
+/*** Form ***/
+
+.fa-location-dot {
+    background-color: #F2F2F2;
+    color: black;
+    height: 20px;
+    padding: 10px 13px 10px 13px;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    border-radius: 12px 0px 0px 12px;
+}
+
+#location-search {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+#location-input {
+    height: 20px;
+    width: 200px;
+    border: none;
+    color: black;
+    font-weight: bold;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    padding: 10px;
+}
+
+#search-desktop {
+    background-color: #0065FC;
+    border: none;
+    height: 42px;
+    font-weight: bold;
+    padding: 10px 13px 10px 13px;
+    border-radius: 0px 12px 12px 0px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#search-mobile {
+    display: none;
+}
+
+
+
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
@@ -184,7 +253,20 @@ header {
     }
 }
 
-/* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
-    /* ... */
-}
+
+    /* Small devices (phones, less than 768px) */
+    @media (max-width: 767.98px) {
+
+        #search-mobile {
+            background-color: #0065FC;
+            border: none;
+            height: 42px;
+            padding: 10px 13px 10px 13px;
+            border-radius: 0px 12px 12px 0px;
+            cursor: pointer;
+        }
+
+        #search-mobile i {
+            color: white;
+        }
+    }
