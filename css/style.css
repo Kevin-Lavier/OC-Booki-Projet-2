@@ -1,8 +1,6 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
-   
-
 }
 
 :root {
@@ -50,7 +48,6 @@ a {
 
 .card-title {
     font-size: 16px;
-    margin-top: 5px;
 }
 
 .euro {
@@ -76,7 +73,7 @@ a {
 
 /****** Hebergements ***********/
 .hebergements {
-    width: 65%; 
+    width: 65%;
 }
 
 /****** Populaires ***********/
@@ -124,10 +121,7 @@ a {
     margin-bottom: 5px;
 }
 
-input:focus { /* suppression cadre bleu pour les inputs */
-    outline: none;
-  }
-  
+
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
