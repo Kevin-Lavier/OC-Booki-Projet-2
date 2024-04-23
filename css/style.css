@@ -607,6 +607,16 @@ margin: 0;
 
 /* Smartphone hebergements */
 
+.activites{
+    flex-direction: column;
+    align-items: center;
+}
+
+.activites-size{
+width: 90%;
+height: 200px;
+padding: 15px;
+}
 
 
 
