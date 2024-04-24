@@ -1,6 +1,7 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+  
 }
 
 :root {
@@ -71,6 +72,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: end;
+    padding-top: 10px;
 
 }
 
@@ -380,15 +382,18 @@ footer {
     display: flex;
     justify-content: flex-start;
     background-color: #F2F2F2;
-    padding: 10px 35px;
 }
 
 .footer-menu {
     width: 50%;
 }
 
+.footer-menu h3 {
+    padding-left: 30px;
+}
+
 .footer-menu ul {
-    padding-left: 0px;
+    padding-left: 30px;
     line-height: 30px;
 }
 
@@ -622,7 +627,7 @@ padding: 15px;
 
     /* Smartphone Footer */
     footer {
-        width: 90%;
+        width: 100%;
         flex-direction: column;
     }
 
